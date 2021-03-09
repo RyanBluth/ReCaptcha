@@ -213,7 +213,7 @@ public class ReCaptcha {
 
     // MARK: - Development
 
-#if DEBUG
+
     /// Forces the challenge widget to be explicitly displayed.
     public var forceVisibleChallenge: Bool {
         get { return manager.forceVisibleChallenge }
@@ -231,7 +231,7 @@ public class ReCaptcha {
         get { return manager.shouldSkipForTests }
         set { manager.shouldSkipForTests = newValue }
     }
-#endif
+
 }
 
 // MARK: - Private Methods
